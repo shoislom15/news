@@ -1,0 +1,150 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  width: 340px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-top {
+  padding: 0;
+}
+.page-top p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  width: 300px;
+}
+.page-top img {
+  width: 28%;
+  margin: 20px;
+}
+.page-top .fa-circle {
+  font-size: 7px;
+  margin-right: -4px;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+  text-align: right;
+}
+
+header {
+  position: sticky;
+  top: -1px;
+  bottom: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 2px solid black !important;
+  padding-bottom: 2px;
+  overflow: auto;
+}
+header .container-fluid {
+  border-top: 1px solid black !important;
+  border-bottom: 1px solid black !important;
+}
+header .container-fluid li {
+  border-bottom: 1px solid transparent !important;
+}
+header .container-fluid li .a-border {
+  border-right: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header .container-fluid li:hover {
+  border-bottom: 1px solid #0A58CA !important;
+}
+header .container-fluid li:hover a {
+  color: 1px solid #0A58CA !important;
+}
+header .container-fluid p {
+  border: 1px solid black !important;
+  padding: 3px !important;
+}
+header .container-fluid button {
+  border: 1px solid black !important;
+  border-radius: 0;
+}
+
+@media (max-width: 1130px) {
+  header p {
+    display: none;
+  }
+  header .btn {
+    display: block !important;
+  }
+
+  .page-top img {
+    width: 45%;
+    margin: 20px;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px !important;
+  height: 1px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+main {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+main ::-webkit-scrollbar {
+  height: 0px !important;
+}
+main ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+main ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+main ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+main h4 {
+  font-size: 28px;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid black;
+}
+main .box {
+  width: 220px;
+}
+main .big-box {
+  border-right: 1px solid #c7c7c7;
+  margin-bottom: 10px;
+}
+main .custom-row {
+  overflow: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
