@@ -139,6 +139,12 @@ main h4 {
 main .box {
   width: 220px;
 }
+main .box img {
+  width: 220px;
+  height: 140px;
+  overflow: hidden;
+  object-fit: cover;
+}
 main .big-box {
   border-right: 1px solid #c7c7c7;
   margin-bottom: 10px;

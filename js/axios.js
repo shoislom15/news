@@ -1,12 +1,11 @@
-const get = (callback) => {
+const get = (url = `https://inshortsapi.vercel.app/news?category=all`) => {
     axios.
-        get(`https://inshortsapi.vercel.app/news?category=all`)
+        get(url)
         .then((response) => {
-            console.log(response);
-            callback(response);
+            // console.log(response);
+            renderRow(response.data);
         })
         .catch((err) => {
             console.log(err);
         })
 }
-
