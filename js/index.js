@@ -9,11 +9,11 @@ const renderCategories = () => {
         a.className = "a-border"
         a.href = "#";
         a.innerHTML = e;
+        lilas = a;
 
         li.appendChild(a);
         category.appendChild(li);
 
-        lilas = li;
     });
 
     lilas.classlist.remove("a-border")
@@ -21,3 +21,8 @@ const renderCategories = () => {
 }
 
 renderCategories();
+
+const renderHomePage = () => {
+    const content = document.getElementById("content");
+
+};
